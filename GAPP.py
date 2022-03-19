@@ -2,11 +2,11 @@ import csv  # For writing data to CSV files
 import logging  # For error handling and debugging
 import os  # For getting directory paths
 import threading  # For multi threading
-from pathlib import Path  # For data paths
 from tkinter import BOTH, DoubleVar, E, IntVar, S, StringVar, Tk, W, ttk  # To create the GUI
 from tkinter.ttk import Notebook  # For tabs in the GUI
-
+#import lxml.html
 from lxml import html
+from pathlib import Path # For data paths
 
 # Import external data
 from calcs import profileCalc, setupCalc, strategyCalc, wearCalc
